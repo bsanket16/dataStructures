@@ -21,7 +21,7 @@ public class min_max {
         int n = scan.nextInt();
         int[] values = new int[n];
 
-        for (int i=1; i<=n; i++) {
+        for (int i=0; i<n; i++) {
             values[i] = scan.nextInt();
         }
         scan.close();
