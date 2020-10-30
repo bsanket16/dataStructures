@@ -1,6 +1,5 @@
 package array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class reverse {
@@ -17,7 +16,10 @@ public class reverse {
             j--;
         }
 
-        System.out.println(Arrays.toString(arr));
+        for (int value : arr) {
+            System.out.println(value);
+        }
+
     }
 
 //  new array
@@ -30,7 +32,9 @@ public class reverse {
             j--;
         }
 
-        System.out.println(Arrays.toString(newArray));
+        for (int i : arr) {
+            System.out.println(i);
+        }
     }
 
 
