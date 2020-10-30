@@ -16,9 +16,8 @@ public class reverse {
             j--;
         }
 
-        for (int value : arr) {
-            System.out.println(value);
-        }
+        for (int value : arr)
+            System.out.print(value + " ");
 
     }
 
@@ -32,9 +31,8 @@ public class reverse {
             j--;
         }
 
-        for (int i : arr) {
-            System.out.println(i);
-        }
+        for(int k=0; k<arr.length; k++)
+            System.out.print(newArray[k] + " ");
     }
 
 
