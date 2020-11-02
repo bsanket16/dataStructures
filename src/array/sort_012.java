@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class sort_012 {
 
-//    dutch flag method
+//    dutch flag technique
     static void sort_zeOnTw (int[] arr, int n) {
         int low = 0;
         int high = n - 1;
