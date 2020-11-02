@@ -48,7 +48,7 @@ public class reverse {
         }
         scan.close();
 
-//      comment one before running;
+//      comment one before running
 
         reverseArraySwap(values, n);
         reverseArrayNew(values,n);
