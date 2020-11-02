@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class max_min {
 
-//swap
+//swaping
     static void maxminArr(int[] arr, int n) {
 
         int max = arr[0];
@@ -25,7 +25,7 @@ public class max_min {
         System.out.println("min:" + min);
     }
 
-//sort
+//sorting
     static void maxminArrSort(int[] arr, int n) {
     int max, min;
 
