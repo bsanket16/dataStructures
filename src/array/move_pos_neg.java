@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class move_pos_neg {
 
+//  sorting
+
     static void sortNegativePositive(int[] arr, int n) {
         int j=0;
         int temp;
