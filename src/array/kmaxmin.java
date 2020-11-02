@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class kmaxmin {
 
-//    sort
+//    sorting
     static void maxminKthElem(int[] arr, int n, int k) {
         Arrays.sort(arr);
 
