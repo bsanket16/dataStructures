@@ -6,7 +6,7 @@ public class union_intersect {
 
     final static Scanner scan = new Scanner(System.in);
 
-    static int unionIntersection (int[] arr1, int[] arr2, int n, int m) {
+    static void unionIntersection (int[] arr1, int[] arr2, int n, int m) {
         int i=0;
         int j=0;
 
@@ -29,7 +29,6 @@ public class union_intersect {
             System.out.print(arr2[j++] + " ");
         }
 
-        return 0;
     }
 
 //    get values
