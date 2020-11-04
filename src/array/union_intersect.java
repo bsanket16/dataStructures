@@ -1,5 +1,7 @@
 package array;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class union_intersect {
@@ -10,14 +12,25 @@ public class union_intersect {
         int i=0;
         int j=0;
 
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+
+        System.out.println("Sorted Arrays: \n" + Arrays.toString(arr1) + " \n" + Arrays.toString(arr2));
+
+        System.out.print("Union: ");
+
+        ArrayList<Integer> intersect = new ArrayList<>();
+
         while (i<n && j<m) {
             if (arr1[i] < arr2[j]) {
                 System.out.print(arr1[i++] + " ");
             } else if (arr2[j] < arr1[i]) {
                 System.out.print(arr2[j++] + " ");
             } else {
-                System.out.print(arr2[j++] + " ");
+                System.out.print(arr2[j] + " ");
+                intersect.add(arr2[j]);
                 i++;
+                j++;
             }
         }
 
@@ -29,6 +42,7 @@ public class union_intersect {
             System.out.print(arr2[j++] + " ");
         }
 
+        System.out.print("\nIntersection: " + intersect);
     }
 
 //    get values
